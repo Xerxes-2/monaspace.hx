@@ -1,8 +1,10 @@
-# monaspace.hx
+# monaspace.hx (experimental)
 
 `monaspace.hx` is a Helix Steel plugin that enables [Monaspace](https://monaspace.githubnext.com/) font mixing by applying bold/italic modifiers to highlight groups, so your terminal renders different Monaspace variants for different syntax elements.
 
 Inspired by [monaspace.nvim](https://github.com/jackplus-xyz/monaspace.nvim).
+
+> **Note:** This plugin is experimental. The Steel scripting API does not currently expose a way to read or clone the active editor theme. As a result, monaspace modifiers are applied to a new blank theme rather than patching your current colorscheme — meaning **your theme's colors will not carry over**. A future upstream addition of an `editor->current-theme` function would allow full parity with monaspace.nvim.
 
 ## How it works
 
