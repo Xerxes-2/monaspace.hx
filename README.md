@@ -4,6 +4,8 @@
 
 Inspired by [monaspace.nvim](https://github.com/jackplus-xyz/monaspace.nvim).
 
+<img width="1881" height="2148" alt="Image" src="https://github.com/user-attachments/assets/94f65e1d-6fda-4042-a28b-3a0f06234d6e" />
+
 > [!IMPORTANT]
 > Requires a Helix Steel build from **2026-08-22 or later** — specifically one that ships `theme-set-name!` ([mattwparas/helix#130](https://github.com/mattwparas/helix/pull/130)) alongside the `current-theme` / `current-theme-name` APIs. On older builds the patched theme is silently shadowed by the on-disk theme of the same name and the plugin has no visible effect.
 
